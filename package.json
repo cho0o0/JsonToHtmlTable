@@ -21,8 +21,9 @@
     "url": "https://github.com/c-cho/JsonToHtmlTable.git"
   },
   "bugs": {
-
+    "url": "https://github.com/c-cho/JsonToHtmlTable/issues"
   },
+  "keywords": ["json", "html", "table"],
   "scripts": {
     "build": "webpack --config webpack.config.js -p",
     "test": "jest --config jest.config.json && codecov"
