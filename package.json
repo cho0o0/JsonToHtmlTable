@@ -7,23 +7,26 @@
     "babel-preset-es2015": "^6.22.0",
     "codecov": "^1.0.1",
     "jest": "^18.1.0",
-    "webpack": "beta"
+    "webpack": "2"
   },
   "name": "jsontohtmltable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make json more readable as html table",
   "main": "jsonToHtmlTable.js",
-  "repository": {},
-  "author": "c-cho",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/c-cho/JsonToHtmlTable.git"
   },
+  "author": "c-cho",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/c-cho/JsonToHtmlTable/issues"
   },
-  "keywords": ["json", "html", "table"],
+  "keywords": [
+    "json",
+    "html",
+    "table"
+  ],
   "scripts": {
     "build": "webpack --config webpack.config.js -p",
     "test": "jest --config jest.config.json && codecov"
