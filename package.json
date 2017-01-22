@@ -9,7 +9,7 @@
     "jest": "^18.1.0",
     "webpack": "beta"
   },
-  "name": "jsonToHtmlTable",
+  "name": "jsontohtmltable",
   "version": "1.0.0",
   "description": "Make json more readable as html table",
   "main": "jsonToHtmlTable.js",
