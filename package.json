@@ -26,9 +26,5 @@
   "scripts": {
     "build": "webpack --config webpack.config.js -p",
     "test": "jest --config jest.config.json && codecov"
-  },
-  "jest": {
-    "coverageDirectory": "./coverage/",
-    "collectCoverage": true
   }
 }

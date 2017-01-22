@@ -1,3 +1,5 @@
 {
-  "testRegex": ".*-test.js"
+  "testRegex": ".*-test.js",
+  "coverageDirectory": "./coverage/",
+  "collectCoverage": true
 }
