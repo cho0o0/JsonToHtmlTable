@@ -1,0 +1,4 @@
+// Used for Jest test
+{
+  "presets": ["es2015"]
+}
