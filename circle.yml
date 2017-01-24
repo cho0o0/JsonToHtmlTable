@@ -17,4 +17,4 @@ test:
     - yarn test
   post:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
-    - find . -type f -regex "test-result-junit.xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
+    - find . -type f -regex ".*/artifacts/test-result-junit.xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
