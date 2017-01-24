@@ -16,4 +16,5 @@ test:
   override:
     - yarn test
   post:
-    - bash <(curl -s https://codecov.io/bash)
+    - mkdir -p $CIRCLE_TEST_REPORTS/junit/
+    - find . -type f -regex "test-result-junit.xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;

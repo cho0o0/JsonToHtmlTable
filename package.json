@@ -7,6 +7,7 @@
     "babel-preset-es2015": "^6.22.0",
     "codecov": "^1.0.1",
     "jest": "^18.1.0",
+    "jest-junit": "^1.0.5",
     "webpack": "2"
   },
   "name": "jsontohtmltable",
@@ -29,6 +30,6 @@
   ],
   "scripts": {
     "build": "webpack --config webpack.config.js -p",
-    "test": "jest --config jest.config.json && codecov"
+    "test": "JEST_JUNIT_OUTPUT='./artifacts/test-result-junit.xml' jest --config jest.config.json && codecov"
   }
 }
