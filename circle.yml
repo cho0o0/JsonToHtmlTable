@@ -5,8 +5,10 @@ machine:
   node:
     version: 7.4.0
 
-
 dependencies:
+  pre:
+    # used for analyzing json response from codecov
+    - sudo apt-get install jq
   override:
     - yarn
   cache_directories:
@@ -18,6 +20,8 @@ test:
   post:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
     - find . -type f -regex ".*/artifacts/test-result-junit.xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
+    - sudo chmod a+x codecov_coverage_validation.sh
+    - ./codecov_coverage_validation.sh
 deployment:
   npm:
     branch: master
