@@ -11,7 +11,7 @@
     "webpack": "2"
   },
   "name": "jsontohtmltable",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Make json more readable as html table",
   "main": "jsonToHtmlTable.js",
   "repository": {
