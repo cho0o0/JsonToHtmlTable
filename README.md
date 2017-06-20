@@ -1,4 +1,4 @@
-#JsonToHtmlTable  
+# JsonToHtmlTable  
 [![npm version](https://badge.fury.io/js/jsontohtmltable.svg)](https://badge.fury.io/js/jsontohtmltable) 
 [![CircleCI](https://circleci.com/gh/c-cho/JsonToHtmlTable/tree/master.svg?style=shield)](https://circleci.com/gh/c-cho/JsonToHtmlTable/tree/master) 
 [![codecov](https://codecov.io/gh/c-cho/JsonToHtmlTable/branch/master/graph/badge.svg)](https://codecov.io/gh/c-cho/JsonToHtmlTable) 
@@ -6,13 +6,13 @@
 
 This is a dead simple Javascript library for converting json to HTML table.
 
-##Features
+## Features
 - visualize nested json
 - support json in string format
 - callback support
 
-##How to use it  
-###Import  
+## How to use it  
+### Import  
 import ``jsonToHtmlTable.min.js`` in a html script tag  
 
 ```html
@@ -25,7 +25,7 @@ or download from npm
 npm install jsontohtmltable
 ```
 
-###Use  
+### Usage  
 ```
 <table id="test-table"></table>
 <script>
