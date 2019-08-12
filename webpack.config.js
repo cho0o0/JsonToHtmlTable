@@ -1,24 +1,43 @@
-// Learn more: [Getting Started with Webpack2](https://blog.madewithenvy.com/getting-started-with-webpack-2-ed2b86c68783)
 const path = require('path');
-const webpack = require('webpack');
 module.exports = {
-    context: path.resolve(__dirname, './'),
-    entry: {
-        jsonToHtmlTable: './jsonToHtmlTable.js',
-    },
-    output: {
-        path: path.resolve(__dirname, './dist'),
-        filename: '[name].min.js',
-        libraryTarget: "var",
-        library: "JsonToHtmlTable",
-    },
-    module: {
-        rules: [{
-            test: /\.js$/,
-            use: [{
-                loader: 'babel-loader',
-                options: { presets: ['es2015'] }
-            }],
-        }],
-    },
+  mode: 'production',
+  entry: {
+    jsonToHtmlTable: './jsonToHtmlTable.js',
+  },
+  output: {
+    path: path.resolve(__dirname, './dist'),
+    filename: '[name].min.js',
+    libraryTarget: 'umd',
+    libraryExport: 'default',
+    library: 'JsonToHtmlTable',
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: [
+                [
+                  '@babel/preset-env',
+                  {
+                    targets: {
+                      ie: '9',
+                      node: '4',
+                    },
+                    useBuiltIns: 'usage',
+                    corejs: 3,
+                    debug: true,
+                  },
+                ],
+              ],
+            },
+          },
+        ],
+      },
+    ],
+  },
 };

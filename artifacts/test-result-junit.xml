@@ -1,20 +1,21 @@
-<testsuites name="jest tests">
-  <testsuite name="object test" tests="8" errors="0" failures="0" skipped="0" timestamp="2017-01-24T12:49:15" time="0.155">
-    <testcase classname="object test should a table" name="object test should a table" time="11">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="8" failures="0" time="3.483">
+  <testsuite name="object test" errors="0" failures="0" skipped="0" timestamp="2019-08-12T08:17:23" time="1.602" tests="8">
+    <testcase classname="object test should be a table" name="object test should be a table" time="0.018">
     </testcase>
-    <testcase classname="object test should process string" name="object test should process string" time="3">
+    <testcase classname="object test should process string" name="object test should process string" time="0.017">
     </testcase>
-    <testcase classname="object test should call callback" name="object test should call callback" time="0">
+    <testcase classname="object test should call callback" name="object test should call callback" time="0.001">
     </testcase>
-    <testcase classname="object test should throw error when using dom element which is not a table" name="object test should throw error when using dom element which is not a table" time="1">
+    <testcase classname="object test should throw error when using dom element which is not a table" name="object test should throw error when using dom element which is not a table" time="0.019">
     </testcase>
-    <testcase classname="array test should a table" name="array test should a table" time="2">
+    <testcase classname="array test should a table" name="array test should a table" time="0.006">
     </testcase>
-    <testcase classname="array test should process string" name="array test should process string" time="2">
+    <testcase classname="array test should process string" name="array test should process string" time="0.004">
     </testcase>
-    <testcase classname="array test should call callback" name="array test should call callback" time="1">
+    <testcase classname="array test should call callback" name="array test should call callback" time="0.003">
     </testcase>
-    <testcase classname="array test should throw error when using dom element which is not a table" name="array test should throw error when using dom element which is not a table" time="0">
+    <testcase classname="array test should throw error when using dom element which is not a table" name="array test should throw error when using dom element which is not a table" time="0.002">
     </testcase>
   </testsuite>
 </testsuites>
