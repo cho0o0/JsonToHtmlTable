@@ -1,0 +1,9 @@
+node_modules
+artifacts
+coverage
+junit.xml
+.babelrc
+.gitignore
+jest.config.json
+jsonToHtmlTable-test.js
+webpack.config.js
