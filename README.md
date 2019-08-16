@@ -21,10 +21,16 @@ import `jsonToHtmlTable.min.js` in a html script tag
 <script src="jsonToHtmlTable.min.js"></script>
 ```
 
-or download from npm
+or download via npm
 
 ```sh
 npm install jsontohtmltable
+```
+
+or add via yarn
+
+```
+yarn add jsontohtmltable
 ```
 
 ### Usage
