@@ -1,0 +1,21 @@
+name: Publish
+on:
+  create:
+    branches:
+      - master
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Publish
+        uses: actions/npm@master
+        with:
+          args: "publish --access public"
+          secrets: ${{secrets.NPM_AUTH_TOKEN}}
+      - name: install, build
+        run: |
+          yarn install
+          yarn build
+      - name: test
+        run: yarn test
