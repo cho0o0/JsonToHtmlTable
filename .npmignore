@@ -4,6 +4,7 @@ coverage
 junit.xml
 .babelrc
 .gitignore
+.github
 jest.config.json
 jsonToHtmlTable-test.js
 webpack.config.js
