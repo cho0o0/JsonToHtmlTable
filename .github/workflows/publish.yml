@@ -1,7 +1,8 @@
 name: Publish
-on: create
-  branches:
-    - master
+on:
+  create:
+    branches:
+      - master
 jobs:
   ci:
     runs-on: ubuntu-latest
