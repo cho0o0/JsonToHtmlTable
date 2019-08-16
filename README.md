@@ -1,15 +1,16 @@
 # JsonToHtmlTable
 
-![npm version](https://img.shields.io/npm/v/jsontohtmltable)
-![Dependency Free](https://img.shields.io/david/cho0o0/JsonToHtmlTable)
+![Current npm version](https://img.shields.io/npm/v/jsontohtmltable)
+![Dependency free](https://img.shields.io/david/cho0o0/JsonToHtmlTable)
+![Code coverage](https://img.shields.io/codecov/c/github/cho0o0/JsonToHtmlTable)
 
 This is a dead simple Javascript library for converting json to HTML table.
 
 ## Features
 
-- visualize nested json
-- support json in string format
-- callback support
+- Visualize nested json
+- Support json in string format
+- Callback support
 
 ## How to use it
 
