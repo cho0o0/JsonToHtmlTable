@@ -14,6 +14,8 @@ jobs:
           yarn install
           yarn build
       - uses: clarkio/snyk-cli-action@master
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
           args: 'test'
       - name: test
