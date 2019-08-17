@@ -4,6 +4,7 @@
 ![Dependency free](https://img.shields.io/david/cho0o0/JsonToHtmlTable)
 ![Code coverage](https://img.shields.io/codecov/c/github/cho0o0/JsonToHtmlTable)
 ![Known Vulnerabilities](https://snyk.io//test/github/cho0o0/JsonToHtmlTable/badge.svg?targetFile=package.json)
+![Code quality](https://img.shields.io/scrutinizer/quality/g/cho0o0/JsonToHtmlTable)
 
 This is a dead simple Javascript library for converting json to HTML table.
 
