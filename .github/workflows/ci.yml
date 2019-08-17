@@ -14,6 +14,8 @@ jobs:
           yarn install
           yarn build
       - uses: clarkio/snyk-cli-action@master
+        with:
+          args: 'test'
       - name: test
         run: yarn test
       - name: Upload coverage to Codecov
