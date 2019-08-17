@@ -30,7 +30,7 @@ npm install jsontohtmltable
 
 or add via yarn
 
-```
+```sh
 yarn add jsontohtmltable
 ```
 
