@@ -7,7 +7,7 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "codecov": "^3.5.0",
     "core-js": "3",
-    "jest": "^24.9.0",
+    "jest": "^26.3.0",
     "jest-junit": "^10.0.0",
     "webpack": "4.41.5",
     "webpack-cli": "^3.3.6"
