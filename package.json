@@ -34,11 +34,11 @@
   "scripts": {
     "build": "webpack -p",
     "test": "JEST_JUNIT_OUTPUT='./artifacts/test-result-junit.xml' jest --config jest.config.json",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepublish": "yarn run snyk-protect"
   },
   "snyk": true,
   "dependencies": {
-    "snyk": "^1.258.2"
+    "@snyk/protect": "latest"
   }
 }
